@@ -1,0 +1,20 @@
+SIXVOID APIS 4.0
+- Analytics por API Key, endpoint e conta vinculada.
+- Histórico diário de requisições (45 dias).
+- Vínculo manual de API Key a uma conta.
+- Presença de usuários autenticados por heartbeat.
+- Monitoramento HTTP ONLINE/OFFLINE com latência e timeout.
+- Recuperação de senha por e-mail com token de uso único e expiração de 30 minutos.
+- Revogação das sessões após redefinição de senha.
+- Player compacto e atalho de WhatsApp nas páginas internas.
+- Atualização visual neon e atualização periódica do painel.
+- SMTP e MONITORED_APIS documentados no .env.example.
+- Backups e arquivos .env.bak excluídos do pacote por segurança.
+
+
+SIXVOID API V4.1
+- Vínculo de compras autenticadas pelo ID da conta, além do e-mail.
+- Recargas verificam se a chave pertence à conta autenticada.
+- Testador da documentação usa proxy autenticado no servidor e injeta a API Key vinculada sem expô-la no endereço do navegador.
+- Removidos prompts e localStorage para inserir API Key nos testes.
+- Status de chave vinculada, ativa e com saldo validado ao abrir a documentação.
